@@ -1,0 +1,46 @@
+.box {
+    border: 2px solid yellow;
+    height: calc(100% - 300px);
+    width: 100%;
+}
+
+.btnPanel{
+    flex-direction: row;
+}
+
+.change1 {
+    width: calc(100% - 270px);
+}
+
+.change2 {
+    width: calc(50%);
+}
+
+.change3 {
+    width: calc(50% + 170px);
+}
+
+.change4 {
+    width: calc(100%);
+}
+
+.btnBlock{
+margin-left: 40px;
+margin-top: 20px;  
+}
+
+.changeH1 {
+    height: calc(50%);
+}
+
+.changeH2{
+    height: calc(100% - 270px);
+}
+
+.changeH3{
+    height: calc(50% + 170px);
+}
+
+.changeH4 {
+    height: calc(100%);
+}
