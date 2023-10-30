@@ -1,0 +1,17 @@
+.container1 {
+    height: 350px;
+    border: 2px solid rgb(231, 30, 30);
+    width: 900px;
+}
+
+.container2 {
+    margin-inline: auto;
+    background: rgb(235, 235, 229);
+    border: 1px solid yellow;
+    height: 300px;
+    color: black;
+}
+
+.changeWidth {
+    width: min(100% - 30px, 800px);
+}

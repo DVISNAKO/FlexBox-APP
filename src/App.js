@@ -1,16 +1,14 @@
 
 import './App.css';
-import TextEdition from './components/TextEdition';
-
-
+import Container from './components/Container';
 
 function App() {
 
   
   return (
     <div className="App">
-   <TextEdition/>
-    
+      <h3>Change the location of the app relative to the page</h3>
+    <Container/>
     </div>
   );
 }
