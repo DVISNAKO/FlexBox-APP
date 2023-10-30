@@ -1,6 +1,7 @@
 
 import './App.css';
-import Calc from './components/Calc';
+import TextEdition from './components/TextEdition';
+
 
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
   
   return (
     <div className="App">
-   
-      <Calc/>
+   <TextEdition/>
+    
     </div>
   );
 }
