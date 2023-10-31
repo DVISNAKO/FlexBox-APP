@@ -1,0 +1,15 @@
+.borderBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(21, 219, 21);
+    height: 300px;
+    width: 300px;
+    color: black;
+    background:white;
+  
+}
+
+#changeBR {
+  border-radius: 0;
+}

@@ -1,5 +1,6 @@
 
 import './App.css';
+import Border from './components/Border';
 import Container from './components/Container';
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
   
   return (
     <div className="App">
-      <h3>Change the location of the app relative to the page</h3>
-    <Container/>
+      <Border/>
     </div>
   );
 }
